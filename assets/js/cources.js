@@ -10,7 +10,7 @@ let main_cources=[]
 //load main cources meals
 window.addEventListener('DOMContentLoaded', () => {
 
-
+ 
     fetch('../../data.json').then(res=>res.json()).then(e=>{
         meals_menu=e.meals
         console.log(meals_menu)

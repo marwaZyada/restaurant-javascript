@@ -23,13 +23,17 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // search
 searchvalue.onkeyup=()=>{
+    result=[]
     console.log(resultsectionscroll.offsetTop)
     window.scrollTo(0,resultsectionscroll.offsetTop)
+    
     resultsection.innerHTML=''
-  
+
     result=meals_menu.filter(el=>{return el.title.includes(searchvalue.value.trim().toLowerCase())})
     console.log(result)
-    if(result.length>0){
+ if( searchvalue.value.trim()=="")
+    result=[]
+    if(result.length>0 ){
         result.forEach(el => {
             resultsection.innerHTML+=`
             <div class="meal">
