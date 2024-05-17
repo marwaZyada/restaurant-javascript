@@ -3,6 +3,7 @@ let togglemenu = document.getElementById("togglemenu")
 let searchvalue = document.getElementById("input")
 let resultsectionscroll = document.getElementById("result")
 let resultsection=document.querySelector("#result .meals")
+
 let flag = false
 let overlay=document.getElementById("overlay")
 let meals_menu=[]
@@ -36,7 +37,7 @@ searchvalue.onkeyup=()=>{
     if(result.length>0 ){
         result.forEach(el => {
             resultsection.innerHTML+=`
-            <div class="meal">
+            <div class="meal" onclick="GetElementInfo(${el.id})">
             <div class="content">
                 <div class="image">
                     <img src=../${el.image} alt="">
@@ -97,6 +98,15 @@ window.onresize = () => {
     }
 }
 
+
 // end menu in large screen
 
+
+// get item details
+function GetElementInfo(id) {
+    console.log(id)
+    var query = new URLSearchParams();
+    query.append("id", id);
+    location.href = "../pages/details.html?"+ query.toString();
+}
 

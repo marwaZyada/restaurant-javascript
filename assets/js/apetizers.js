@@ -2,6 +2,7 @@ let menubtn = document.getElementById("menubtn")
 let togglemenu = document.getElementById("togglemenu")
 let searchbtn = document.getElementById("btn")
 let apetizerssection=document.querySelector("#apetizers .meals")
+
 let flag = false
 let overlay=document.getElementById("overlay")
 let meals_menu=[]
@@ -36,6 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
             `
         });
+       
        
     })
     window.scrollTo(0,apetizerssection.offsetTop)
@@ -101,3 +103,4 @@ function GetElementInfo(id) {
     query.append("id", id);
     location.href = "../pages/details.html?"+ query.toString();
 }
+

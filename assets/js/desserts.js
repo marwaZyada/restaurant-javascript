@@ -2,6 +2,7 @@ let menubtn = document.getElementById("menubtn")
 let togglemenu = document.getElementById("togglemenu")
 let searchbtn = document.getElementById("btn")
 let dessertssection=document.querySelector("#desert .meals")
+
 let flag = false
 let overlay=document.getElementById("overlay")
 let meals_menu=[]
@@ -98,3 +99,4 @@ function GetElementInfo(id) {
     query.append("id", id);
     location.href = "../pages/details.html?"+ query.toString();
 }
+
