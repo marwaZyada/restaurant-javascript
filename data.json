@@ -1,0 +1,18 @@
+{
+    "meals":[
+      {"id":"1","title":"beef", "price":"75$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"meat,salt,oil","category":"main-course","image":"/images/beef.png"},
+      {"id":"2","title":"chicken", "price":"65$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"chicken,salt,oil","category":"main-course","image":"/images/chicken.png"},
+      {"id":"3","title":"lamb", "price":"95$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"lamb,onion,salt,oil","category":"main-course","image":"/images/lamb.png"},
+      {"id":"4","title":"cake", "price":"125$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"flourوeggs,suger,oil","category":"dessert","image":"/images/cake.jpg"},
+      {"id":"5","title":"cubcake", "price":"105$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"flourوeggs,suger,oil,choclate","category":"dessert","image":"/images/cubcake.jpg"},
+      {"id":"6","title":"vegetarian", "price":"85$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"flourوeggs,suger,oil,choclate,fruit","category":"dessert","image":"/images/vegetarian.png"},
+      {"id":"7","title":"coffee", "price":"45$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"sugger,coffe","category":"peverage","image":"/images/coffee.jpg"},
+      {"id":"8","title":"orange-juice", "price":"35$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"orange,suger,water","category":"peverage","image":"/images/orange.jpg"},
+      {"id":"9","title":"soup", "price":"15$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"onion,vegetables,oil","category":"peverage","image":"/images/soup.jpg"},
+      {"id":"10","title":"salad", "price":"10$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"tamato,carotes,salt","category":"apetizer","image":"/images/salad.png"},
+      {"id":"11","title":"flafel", "price":"15$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"vegetables,tamia,bread","category":"apetizer","image":"/images/flafel.jpg"},
+      {"id":"12","title":"miscellaneous", "price":"25$","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero!","ingredients":"bread,potato,vegetables","category":"apetizer","image":"/images/miscellaneous.png"}
+      
+      
+    ]
+    }
